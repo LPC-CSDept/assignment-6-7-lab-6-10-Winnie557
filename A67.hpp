@@ -28,9 +28,9 @@ void swap(int &a, int &b, int &c){
         medium = (a>b ? a : c);
         min = (a>b ? b : a);
     }
-    // a = min;
-    // b = medium;
-    // c = max; 
+    a = min;
+    b = medium;
+    c = max; 
 }
 void swap(int &a, int &b, int &c, int &d){
     int temp = a;
