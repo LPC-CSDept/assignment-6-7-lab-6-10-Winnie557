@@ -25,7 +25,7 @@ void swap(int &a, int &b, int &c){
     }
     else{
         max = c;
-        medium = (a>b ? a : c);
+        medium = (a>b ? a : b);
         min = (a>b ? b : a);
     }
     a = min;
